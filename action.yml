@@ -20,7 +20,7 @@ inputs:
     default: yaml
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://accelleran/jinja2-action:1.3.0'
 branding:
   icon: 'sliders'
   color: 'red'
